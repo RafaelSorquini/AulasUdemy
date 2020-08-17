@@ -9,7 +9,12 @@ namespace CursoUdemy
     {
         static void Main(string[] args)
         {
- // mais um teste de commit
+            // mais um teste de commit
+
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine("Teste");
+            }
 
             TimeSpan t1 = new TimeSpan(1, 30, 10);
 
